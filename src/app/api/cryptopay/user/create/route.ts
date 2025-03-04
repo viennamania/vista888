@@ -112,7 +112,6 @@ export const GET = async (req: NextRequest, res: NextResponse) => {
     // Configure the smart wallet
     const wallet = smartWallet({
       chain: chain,
-      factoryAddress: "0x655934C0B4bD79f52A2f7e6E60714175D5dd319b", // your own deployed account factory address
       sponsorGas: true,
     });
     
